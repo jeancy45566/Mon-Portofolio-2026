@@ -1,39 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Mes Passions - JEANCY</title>
     <link rel="stylesheet" href="CSS/Style.CSS">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon Portfolio</a>
+            <a href="index.html">Mon Portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="Projets.html">Projets</a></li>
-                <li><a href="Passions.html"class="active">Passions</a></li>
+                <li><a href="Passions.html" class="active">Passions</a></li>
                 <li><a href="Divertissement.html">Divertissement</a></li>
                 <li><a href="Conctat.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Voici mes passions</h1>
+
+    <main class="projets-container">
+        <h1>Mes Passions</h1>
+        
+        <div class="projets-grid">
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/developement.jpeg" alt="Web Design">
+                </div>
+                <div class="projet-info">
+                    <h3>Développement Web</h3>
+                    <p>Concevoir des sites innovants et performants en utilisant les dernières technologies du marché.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+                        <a href="#"><i class="fa-solid fa-rocket"></i> Démo</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/appren.jpeg" alt="Écriture">
+                </div>
+                <div class="projet-info">
+                    <h3>Écriture Technique</h3>
+                    <p>Documenter mes apprentissages et partager mes connaissances avec la communauté.</p>
+                    <div class="tags">
+                        <span>Blog</span>
+                        <span>Doc</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-pen-nib"></i> Articles</a>
+                        <a href="#"><i class="fa-solid fa-link"></i> Lire</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/intelligence.jpeg" alt="Backend">
+                </div>
+                <div class="projet-info">
+                    <h3>Architecture Backend</h3>
+                    <p>Explorer la logique serveur et la gestion des bases de données avec des frameworks modernes.</p>
+                    <div class="tags">
+                        <span>PHP</span>
+                        <span>Laravel</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-server"></i> Serveur</a>
+                        <a href="#"><i class="fa-solid fa-clock"></i> Bientôt</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/inte.jpeg" alt="Data Science">
+                </div>
+                <div class="projet-info">
+                    <h3>Analyse de Données</h3>
+                    <p>Extraire des informations pertinentes à partir de données brutes pour aider à la décision.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Data</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-chart-line"></i> Études</a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Voir</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/mobile.jpeg" alt="Mobile">
+                </div>
+                <div class="projet-info">
+                    <h3>Veille Mobile</h3>
+                    <p>Suivre l'évolution des applications mobiles et des nouvelles interfaces tactiles.</p>
+                    <div class="tags">
+                        <span>Mobile</span>
+                        <span>API</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-mobile-screen"></i> Apps</a>
+                        <a href="#"><i class="fa-solid fa-bolt"></i> Test</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/design.jpg" alt="UI Design">
+                </div>
+                <div class="projet-info">
+                    <h3>Design d'Interface</h3>
+                    <p>Imaginer des maquettes centrées sur l'utilisateur avec une esthétique épurée.</p>
+                    <div class="tags">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-palette"></i> Design</a>
+                        <a href="#"><i class="fa-solid fa-eye"></i> Aperçu</a>
+                    </div>
+                </div>
+            </article>
+        </div>
     </main>
+
     <footer>
         <p>&copy; 2026 JEANCY. Tous droits réservés.</p>
         <div>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
     </footer>
 </body>

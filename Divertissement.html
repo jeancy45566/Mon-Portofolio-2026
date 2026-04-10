@@ -1,39 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Divertissement - JEANCY</title>
     <link rel="stylesheet" href="CSS/Style.CSS">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon Portfolio</a>
+            <a href="index.html">Mon Portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="Projets.html">Projets</a></li>
                 <li><a href="Passions.html">Passions</a></li>
-                <li><a href="Divertissement.html"class="active">Divertissement</a></li>
+                <li><a href="Divertissement.html" class="active">Divertissement</a></li>
                 <li><a href="Conctat.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Voici mes Divertissement</h1>
+
+    <main class="projets-container">
+        <h1>Mes Divertissements</h1>
+        
+        <div class="projets-grid">
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/play3.jpeg" alt="Jeux Vidéo">
+                </div>
+                <div class="projet-info">
+                    <h3>Gaming & Esport</h3>
+                    <p>Passionné par les jeux de stratégie et de compétition qui stimulent la réflexion et les réflexes.</p>
+                    <div class="tags">
+                        <span>Stratégie</span>
+                        <span>PC</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-gamepad"></i> Jouer</a>
+                        <a href="#"><i class="fa-solid fa-trophy"></i> Scores</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/musique2.jpeg" alt="Musique">
+                </div>
+                <div class="projet-info">
+                    <h3>Musique & Beats</h3>
+                    <p>La musique est mon moteur quotidien, particulièrement le Jazz et les rythmes urbains pour la concentration.</p>
+                    <div class="tags">
+                        <span>Spotify</span>
+                        <span>Vinyle</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-music"></i> Playlist</a>
+                        <a href="#"><i class="fa-solid fa-headphones"></i> Écouter</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/cinema.jpeg" alt="Cinéma">
+                </div>
+                <div class="projet-info">
+                    <h3>Cinéma & Séries</h3>
+                    <p>Grand amateur de science-fiction et de thrillers psychologiques qui repoussent les limites de l'imaginaire.</p>
+                    <div class="tags">
+                        <span>Sci-Fi</span>
+                        <span>IMAX</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-film"></i> Films</a>
+                        <a href="#"><i class="fa-solid fa-star"></i> Favoris</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/sport.jpeg" alt="Sport">
+                </div>
+                <div class="projet-info">
+                    <h3>Sport & Fitness</h3>
+                    <p>Maintenir un esprit sain dans un corps sain à travers le football et les séances de cardio.</p>
+                    <div class="tags">
+                        <span>Santé</span>
+                        <span>Football</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-dumbbell"></i> Training</a>
+                        <a href="#"><i class="fa-solid fa-heart-pulse"></i> Stats</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/voyage2.jpeg" alt="Voyage">
+                </div>
+                <div class="projet-info">
+                    <h3>Voyages & Nature</h3>
+                    <p>Découvrir de nouveaux paysages et cultures pour élargir mes horizons et trouver l'inspiration.</p>
+                    <div class="tags">
+                        <span>Aventure</span>
+                        <span>Photo</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-plane"></i> Destin</a>
+                        <a href="#"><i class="fa-solid fa-camera"></i> Galerie</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="IMAGE/photo2.jpeg" alt="Photographie">
+                </div>
+                <div class="projet-info">
+                    <h3>Photographie Mobile</h3>
+                    <p>Capturer l'instant présent et jouer avec la lumière pour raconter des histoires visuelles.</p>
+                    <div class="tags">
+                        <span>Street</span>
+                        <span>Edit</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="#"><i class="fa-solid fa-images"></i> Album</a>
+                        <a href="#"><i class="fa-solid fa-eye"></i> Voir</a>
+                    </div>
+                </div>
+            </article>
+        </div>
     </main>
+
     <footer>
         <p>&copy; 2026 JEANCY. Tous droits réservés.</p>
         <div>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
     </footer>
 </body>
